@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+  font-family: "Press Start 2p";
+}
+
+.container {
+  width: 100%;
+  max-width: 1377px;
+  background-color: rgb(53, 52, 52);
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  height: 250px;
+  padding: 10px;
+  border-bottom: 4px solid white;
+}
+
+.buttons {
+  width: 150px;
+  height: 50px;
+  font-family: "Press Start 2p";
+  border: none;
+}
+
+header h1 {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+header button {
+  position: absolute;
+  top: 10px;
+}
+
+header p {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.myNumber {
+  width: 120px;
+  height: 80px;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 70%);
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.left input {
+  height: 100px;
+  width: 150px;
+  margin: 6rem 0 2rem 0;
+  font-size: 2rem;
+  font-family: "Press Start 2p";
+  text-align: center;
+}
+
+.left button {
+  margin-bottom: 6.5rem;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 6rem;
+}
+
+.right p {
+  margin-bottom: 2rem;
+}
+
+.right p:first-child {
+  padding-bottom: 4rem;
+}
